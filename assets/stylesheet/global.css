@@ -1,0 +1,35 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: maya;
+    overflow-x: hidden;
+  
+}
+
+
+@font-face {
+    font-family: maya;
+    src: url(../font/Dongle-Light.ttf);
+}
+
+li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    &:visited{
+        color: inherit;
+    
+    }
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.icon-leaf{
+    color: #047857;
+}
